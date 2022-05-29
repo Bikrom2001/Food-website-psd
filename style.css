@@ -1,0 +1,544 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.menubg{
+    background: #607d8b !important;
+    }
+
+/* font-family: 'Cookie', cursive;
+font-family: 'Raleway', sans-serif; */
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('img/header-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+}
+.header-text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    color: white;
+}
+.text-box {
+    width: 600px;
+    height: 303px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: rgb(251 249 242 / 81%);
+}
+.text-box h1 {
+    font-size: 46px;
+    font-family: 'Cookie', cursive;
+    font-weight: 400;
+    color: #2c3a42;
+    margin: 0 0px;
+    padding-top: 48px;
+}
+.text-box p {
+    /* margin: 10px 0 40px; */
+    color: #ad6c12;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #2c3a42;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: #ffffff;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    color: #2c3a42;
+}
+
+/* <!-- indian traditional flavours --> */
+ 
+.section-padding{
+    padding: 70px 0;
+    background: #2a3b40;
+}
+.indian-text h2{
+    font-weight: 700;
+    font-size: 26px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 80px;
+}
+.indian-text p{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding-top: 15px;
+    text-align: justify;
+    padding-right: 20px;
+}
+
+/* new tastes */
+.tastes-padding{
+    padding: 100px 0;
+    background: #d4d8d9;
+}
+.new-item h3 {
+    color: #2a3b40;
+    font-size: 19px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.new-item p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.carcle{
+    width: 20px;
+    height: 20px;
+    background-color: #2a3b40;
+    border-radius: 50%;
+    
+   
+}
+.carcle-icons{
+    display: flex;
+    gap: 7px;
+}
+
+/* on your plate */
+
+.plate{
+    /* min-height: 1200px; */
+    width: 100%;
+    background-image:url('img/food-menu-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 90px 0;
+}
+
+.plate-bg {
+    background: #ffffffbf;
+}
+.on-ours{
+    text-align: center;
+    padding: 50PX 0;
+}
+.on-ours h2 {
+    color: #304751;
+    font-family: 'Cookie', cursive;
+    font-size: 35px;
+}
+.on-ours h1 {
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    margin: 0 0px;
+    color: #c1904c;
+    font-size: 35px;
+}
+.tikka-text {
+    text-align: center;
+}
+.tikka-text h1 {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    padding-top: 68px;
+    color: rgb(42, 59, 64);
+}
+.tikka-text h2 {
+    font-size: 17px;
+    color: #2a3b40;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+/* .f01{
+    width: 270px;
+    height: 274px;
+    padding-left: 0;
+    padding-right: 0;
+} */
+
+/* Traditional cuisine made easy */
+
+.traditional-bg1 {
+    background-color: #878888;
+    /* height: 400px; */
+}
+.traditional-bg2{
+    background-image: url('img/secton-3-bg.png');
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* height: 400px; */
+    padding-top: 90px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.traditional-text h1{
+    color: #2a3b40;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.traditional-text p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.carcle6 {
+    width: 20px;
+    height: 20px;
+    background-color: #2a3b40;
+    border-radius: 50%;
+    margin: 30px 0;
+}
+.carcle-icons6{
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+}
+.item-text6{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.item-text6 h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+/* discover new menu  */
+
+.discover{
+    width: 100%;
+    background-image:url('img/secton-4.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   padding-top: 90px;
+   /* padding-bottom: 90px; */
+}
+.plate-bg2 {
+    background: #ffffffbf;
+    
+}
+.sandwichiii {
+    font-size: 57px;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.ojbect-itwem h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin: 0 0px;
+    font-size: 17px;
+    padding-bottom: 9px;
+}
+.ojbect-itwem p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin: 0 0px;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.matn-iteam h1{
+    
+    font-size: 22px;
+    margin: 0 0px;
+}
+.matn-iteam p{
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+font-size: 15px;
+padding-bottom: 60px;
+}
+  /* background */
+
+  .background{
+      background-image: url('img/secton-5.jpg');
+      max-width: 100%;
+      height: 889px;
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+
+  /* books here */
+
+  .books{
+      background: #2a3b40;
+      padding: 50px 0;
+  }
+  .on-ours2{
+    text-align: center;
+    /* padding: 50PX 0; */
+}
+.on-ours2 h2 {
+    color: #304751;
+    font-family: 'Cookie', cursive;
+    font-size: 35px;
+}
+.from-text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+}
+::placeholder{
+  color: white;
+
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid white;
+    background-color: #2a3b40;
+   
+  }
+  input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid white;
+    background-color: #2a3b40;
+   
+  }
+  input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid white;
+    background-color: #2a3b40;
+   
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid white;
+    background-color: #2a3b40;
+   
+  }
+  input[type=time] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid white;
+    background-color: #2a3b40;
+    color: white;
+   
+  }
+  .btn-submit{
+    background: transparent;
+    border: 2px solid white;
+    color: gray;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    margin: 0 auto;
+    text-align: center;
+   
+  }
+  .btn-submit:hover{
+      color: gray;
+  }
+
+  /* backgeound 02 */
+  .background2{
+    background-image: url('img/secton-6.jpg');
+    max-width: 100%;
+    height: 864px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* discover menu  */
+
+.discover-menu{
+    background: #d4d8d9;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+.on-ours3{
+    text-align: center;
+    /* padding: 50PX 0; */
+}
+.on-ours3 h2 {
+    color: #304751;
+    font-family: 'Cookie', cursive;
+    font-size: 35px;
+}
+.on-ours3 h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin: 0 0px;
+    color: #c1904c;
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+.food-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+.food-pra{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding-top: 8px;
+}
+.food-pra2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.food-button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+.color {
+    width: 95px;
+    height: 5px;
+    background: #ff992b;
+    margin-bottom: 10px;
+}
+
+/* Lincda siteward  */
+.lincda{
+    background: #2a3b40;
+    padding: 50px 0;
+}
+
+.quote-icons i{
+    text-align: center;
+    display: block;
+    font-size: 28px;
+    color: white;
+}
+
+.lincda-stew p{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.lincda-stew h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.socal-icons i{
+    font-size: 22px;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+    color: #2a3b40;
+    cursor: pointer;
+}
+.socal-icons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* about */
+.about{
+    background: #d4d8d9;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.about-text h1{
+    color: #2a3b40;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.about-text02 h1 {
+    color: #2a3b40;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.about-text02 h2{
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.about-text03 h1 {
+    color: #2a3b40;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.about-text03 h2{
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.scrollTop {
+    width: 40px;
+    height: 40px;
+    background: #092C58;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 9px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+    transition: all 0.4s;
+    /* display: none; */
+}
+.scrollTop:hover{
+    background: #6776f4;
+    color: #fff;
+}
+.scrollTop a{
+    color: #fff;
+}
+.scrollTop i {
+    font-size: 30px;
+}
+  

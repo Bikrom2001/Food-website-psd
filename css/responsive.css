@@ -1,0 +1,81 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    .text-box {
+        width: 400px;
+        height: 250px;
+      
+    }
+    .text-box h1 {
+        font-size: 32px;
+       
+    }
+    .text-box p {
+        font-size: 30px;
+        
+    }
+    .plate-item{
+        /* max-width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 2%; */
+    }
+    .tikka-text{
+        width: 270px;
+        height: 274px;
+        margin: auto;
+
+    }
+    .img-remonce {
+        max-width: 270px;
+        height: 274px;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: 77px;
+    }
+    .card-style{
+        max-width: 85%;
+        margin: 0 auto;
+    }
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .text-box {
+        width: 500px;
+        height: 300px;
+      
+    }
+    .text-box h1 {
+        font-size: 40px;
+       
+    }
+    .text-box p {
+        font-size: 45px;
+        
+    }
+    .card-style{
+        max-width: 85%;
+        margin: 0 auto;
+    }
+
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+}
